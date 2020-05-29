@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulaires</title>
+  </head>
+  
+  <body>
+ <h1> Creer des formulaires </h1>
+
+ <form method="POST" action="traitement.php">
+<p>
+    <label for="pseudo">Votre pseudo</label>
+    <input type="text" name="pseudo" id="pseudo" /></br>
+    <label for="password">Votre mot de passe</label>
+    <input type="password" name="mdp" id="MDP" /></br>
+    <label for="email">Votre mot e-mail</label>
+    <input type="email" name="mail" id="e-mail" /></br>
+    <label for="url">Ecrire adresse URL du site</label>
+    <input type="url" name="url" id="url" /></br>
+    <label for="tel">Votre numero de telephone</label>
+    <input type="tel" name="telephone" id="telephone" /></br>
+    <textarea>Zone pour ecrire du texte</textarea></br>
+
+    <label for="number">Inscrire un numéro</label>
+    <input type="number" name="Nombre" id="number" /></br>
+
+    <label for="search">Recherche</label>
+    <input type="search" name="recherche" id="search" /></br>
+
+    <input type="color" /></br>
+    <input type="date" /></br>
+
+    <input type="checkbox" checked/></br>
+    <h1> La fonction radio </h1>
+
+    <p> Indiquez votre tranche d'age :</br>
+      <input type="radio" name="Age" value="moins15" id="moins15" /> 
+      <label for="moins15">Moins de 15 Ans</label></br>
+      <input type="radio" name="Age" value="moyen15-40" id="moyen15-40" /> 
+      <label for="moyen15-40">Moyen entre 15 a 40 ans</label></br>
+      <input type="radio" name="Age" value="vieux40-90" id="entre40-90" /> 
+      <label for="entre-90">Entre 40 et plus ans</label></br>
+    </p>
+
+    <p>
+      <h1>La liste des continents</h1>
+<label for="continent" dans quel continent habitez vous ?</label></br>
+  <select name="continent" id="continement">
+    <option value="Europe">Europe</option>
+    <option value="Amerique" selected>Amerique</option>
+    <option value="Asie">Asie</option>
+    </select>
+</p>
+
+<fieldset>
+<legend>Vos coordonnées</legend>
+<p>
+  <label for="Nom"> Quel est votre Nom ?</label>
+    <input type="text" name="Nom" id="Nom" autofocus/>
+</p>
+<p>
+  <label for="Prenom"> Quel est votre Prenom ?</label>
+    <input type="text" name="Prenom" id="Prenom" />
+</p>
+<p>
+  <label for="email"> Quel est votre Email ?</label>
+    <input type="email" name="e-mail" id="e-mail" required/>
+</p>
+<input type="submit" value="Envoyer" />
+
+</fieldset>
+
+<a href="revision12.html" title="go go go">page12 </a>
+
+
+       
+</body>
+</html>
